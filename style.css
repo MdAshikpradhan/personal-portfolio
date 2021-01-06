@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+/* Nav area start   */
+.nav {
+    height: 50px;
+    padding-bottom: 150px;
+}
+.top-nav {
+    margin-right: 100px;
+}
+ .top-nav, li, a {
+    float: right;
+    list-style: none;
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+/* Nav area end  */
+
+/* top banner area start  */
+.orange-hilight {
+    color: #FF8367;
+}
+.link-button {
+    float: left;
+    padding: 10px 20px;
+    background-color: #FF8367;
+    border-radius: 5px;
+    color: white;
+}
+.half-width{
+    float: left;
+    width: 40%;
+    margin-left: 3%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+section {
+    height: 600px;
+}
+/* top banner area end  */
+
+/* about area start  */
+.about-area {
+
+}
+/* .about-button {
+    float: left;
+    background-color: red;
+} */
+/* about area end  */
+
+/* work area start  */
+.working-area {
+    background-color: #E5E5E5;
+}
+.working-area, title {
+    text-align: center;
+    padding-top: 30px;
+}
+.work{
+    float: left;
+    margin-left: 3%;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    width: 370px;
+    height: 374px;
+}
+.work img{
+    width: 343px;
+    height: 213px;
+}
+/* work area end  */
+
+/* Work iquiry area start  */
+.inquiry-area {
+    background-image: url("images/image10.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left {
+    padding-right: 100px;
+    color: white;
+}
+.right {
+    padding-left: 100px;
+}
+/* work inquiry area end  */
+
+/* contact area start  */
+.contact-area {
+    height: 800px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.contact-top {
+    text-align: center;
+}
+.contact-text{
+    margin-right: 200px;
+}
+.contact-text i{
+    color: orange;
+    font-size: 20px;
+}
+.form-box {
+    width: 400px;
+    height: 30px;
+}
+/* contact area end  */
+
+
+/* footer area start  */
+footer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.icon{
+    text-align: center;
+}
+.icon img{
+    width: 36px;
+    height: 36px;
+}
+/* footer area end  */
